@@ -443,12 +443,22 @@ footer div p a {
     }
     p {
         font-size: .8em;
-    }  
+    } 
     .imagem_cel {
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 100%;
+    }
+    #a_cel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #img_cell {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 80%;
     }
     .imagem_buy {
         max-width: 100%;
@@ -480,7 +490,7 @@ footer div p a {
         display: flex;
         justify-content: center;
         margin-top: 30px;
-        padding: 25px 50px;
+        padding: 15px 60px;
     }
     /*INSTITUTES */
     
@@ -498,6 +508,14 @@ footer div p a {
         justify-content: center;
         width: 100%;
         margin-bottom: -50px;
+    }
+    #div_img_inst_cel {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    #img_inst {
+        max-width: 90%;
     }
     /* PRICE */
     .info_price {
@@ -561,10 +579,20 @@ footer div p a {
         width: auto;
     }
     .buy_now_button button {
-        font-size: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+        width: 250px;
+        height: 60px;
     }
-    .imagem_buy {
-        margin: 0;
+    .free_bonus {
+        font-size: 1em;
+        padding: 5px 30px;
+    }
+    .free_shipping {
+        font-size: 1em;
+        padding: 5px 30px;
     }
     .p_price {
         font-size: 5em;
@@ -575,11 +603,11 @@ footer div p a {
     .sec_stamps {
         margin-top: 50px;
     }
-    .img_stamps {
-        width: 80%;
-    }
     .safe {
         font-size: .8em;
+    }
+    .img_off {
+        display: none;
     }
     /* FOOTER */
     .container_footer {
@@ -701,13 +729,13 @@ footer div p a {
         margin-top: 10px;
     }
     .one_bottler {
-        max-width: 26%;
+        max-width: 15%;
     }
     .six_blotter {
-        max-width: 40%;
+        max-width: 45%;
     }
     .three_bottler {
-        max-width: 30%;
+        max-width: 35%;
     }
     .div_cel_left {
         display: flex;
@@ -718,6 +746,20 @@ footer div p a {
         flex-direction: column;
         justify-content: center;
         padding: 30px;
+    }
+    .imagem_buy {
+        margin-top: 50px;
+    }
+    .price {
+        margin-bottom: 20px;
+    }
+    .free_bonus {
+        font-size: 1em;
+        padding: 5px 10px;
+    }
+    .free_shipping {
+        font-size: 1em;
+        padding: 5px 10px;
     }
     .p_customer {
         display: flex;
@@ -739,6 +781,9 @@ footer div p a {
     }
     .buy_now_button button {
         font-size: 1.5em;
+        padding: 5px 10px;
+        width: 250px;
+        justify-content: center;
     }
     .p_best_price {
         font-size: 6em;
