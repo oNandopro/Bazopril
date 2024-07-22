@@ -203,6 +203,15 @@ section .info_one {
     max-width: 100%;
 }
 /* INFO PRICE */
+.one_bottler {
+    max-width: 26%;
+}
+.six_blotter {
+    max-width: 65%;
+}
+.three_bottler {
+    max-width: 60%;
+}
 .info_price {
     display: flex;
     justify-content: space-between;
@@ -330,7 +339,7 @@ h3 {
     transition: transform .3s ease;
 }
 .buy_now_button button:hover {
-    color: rgb(7, 22, 7);
+    color: #6C1032;
     transform: scale(1.1);
 }
 .discount {
