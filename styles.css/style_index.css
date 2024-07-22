@@ -634,7 +634,6 @@ footer div p a {
     .descricao, .imagem {
         width: 100%; 
     }
-    /* INSTITUTES */
     /* DIV BALLOON */
     .div_balloon {
         font-size: 1.9em;
@@ -701,6 +700,15 @@ footer div p a {
         align-items: center;
         margin-top: 10px;
     }
+    .one_bottler {
+        max-width: 26%;
+    }
+    .six_blotter {
+        max-width: 40%;
+    }
+    .three_bottler {
+        max-width: 30%;
+    }
     .div_cel_left {
         display: flex;
         flex-direction: column;
@@ -709,6 +717,7 @@ footer div p a {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 30px;
     }
     .p_customer {
         display: flex;
@@ -730,7 +739,6 @@ footer div p a {
     }
     .buy_now_button button {
         font-size: 1.5em;
-        padding: 20px 20px;
     }
     .p_best_price {
         font-size: 6em;
