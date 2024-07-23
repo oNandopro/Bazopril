@@ -564,6 +564,7 @@ footer div p a {
         display: flex;
         flex-direction: column;
         margin: 15px;
+        margin-bottom: -20px;
     }
     .div_cel_rigth {
         display: flex;
@@ -596,6 +597,7 @@ footer div p a {
     }
     .p_price {
         font-size: 5em;
+        margin-top: 0px;
     }
     .p_best_price {
         font-size: 5.5em;
