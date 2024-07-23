@@ -400,7 +400,6 @@ h3 {
 }
 .img_stamps {
     margin: 20px;
-    background-color: #0A0B7D;
 }
 .safe {
     margin-top: 10px;
@@ -609,14 +608,8 @@ footer div p a {
     .safe {
         font-size: .8em;
     }
-    #guar {
-        max-width: 50%;
-    }
     .img_stamps {
-        margin-right: 0px;
-    }
-    .segure {
-        background-color: #CC3911;
+        margin: 10px;
     }
     /* FOOTER */
     .container_footer {
