@@ -611,6 +611,7 @@ footer div p a {
     .img_stamps {
         margin: 10px;
     }
+    
     /* FOOTER */
     .container_footer {
         height: 50PX;
@@ -731,13 +732,13 @@ footer div p a {
         margin-top: 10px;
     }
     .one_bottler {
-        max-width: 15%;
+        max-width: 25%;
     }
     .six_blotter {
-        max-width: 45%;
+        max-width: 55%;
     }
     .three_bottler {
-        max-width: 35%;
+        max-width: 45%;
     }
     .div_cel_left {
         display: flex;
