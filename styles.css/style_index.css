@@ -580,6 +580,7 @@ footer div p a {
         width: auto;
     }
     .buy_now_button button {
+        padding: 45px 25px;
         display: flex;
         justify-content: center;
         align-items: center;
