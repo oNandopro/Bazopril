@@ -63,7 +63,7 @@ header {
     justify-content: end;
 }
 .button_one button {
-    padding: 15px 35px;
+    padding: 25px 35px;
     background-color: #FDCF03;
     font-weight: 700;
     color: black;
@@ -326,7 +326,7 @@ h3 {
 }
 .buy_now_button button{
     display: flex;
-    padding: 15px 25px;
+    padding: 25px 25px;
     background-image: linear-gradient(#FFF84F 50%, #FDD003 50%);
     font-weight: 900;
     color: #0A0B7D;
@@ -411,7 +411,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.719); 
+    background-color: #204663; 
     color: white;
     width: 100%;
     height: auto;
@@ -450,7 +450,7 @@ footer h4 a {
         font-size: 4em;
     }
     .button_one button {
-        padding: 10px 15px;
+        padding: 25px 15px;
     }
     /* MAIN */
     .sec_desc {
@@ -505,10 +505,8 @@ footer h4 a {
         display: flex;
         justify-content: center;
         margin-top: 30px;
-        padding: 15px 60px;
-    }
-    /*INSTITUTES */
-    
+        padding: 25px 60px;
+    } 
     /* DIV BALLOON */
     .div_balloon {
         font-size: 1.6em;
